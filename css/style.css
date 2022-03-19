@@ -82,7 +82,13 @@ a:hover {
 /*headerブロック*/
 header {
 	text-align: center;	/*ヘッダーブロックの内容をセンタリングする設定*/
+	font-size: 50px;
 }
+
+header a {
+	text-decoration: none;
+}
+
 /*ロゴ画像設定*/
 #logo  img {
 	width: 80%;			/*画像幅を上で設定している「container」の80%にする設定。*/
