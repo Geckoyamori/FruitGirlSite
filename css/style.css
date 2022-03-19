@@ -233,6 +233,7 @@ footer .pr {
 .parentlist {
 	display: flex;
 	flex-wrap: wrap;	/*左に回り込みさせる設定*/	
+	flex-direction: column;
 }
 
 .list {
