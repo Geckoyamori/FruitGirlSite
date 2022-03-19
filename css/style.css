@@ -66,7 +66,7 @@ a:hover {
 ---------------------------------------------------------------------------*/
 #container {
 	width: 80%;					/*ブロックの幅を画面の80%にする設定。*/
-	max-width: 2000px;			/*上のwidth指定の追加設定。幅1000pxを最大幅に設定し、それ以上広げない。*/
+	max-width: 1000px;			/*上のwidth指定の追加設定。幅1000pxを最大幅に設定し、それ以上広げない。*/
 	margin: 5% auto 0px;		/*HP画面の左右中央に表示させる設定。最初の5%は上(コンテナーの外側)に空ける余白の指定。*/
 	background: #fff;					/*背景色（古いブラウザ用）*/
 	background: rgba(255,255,255,0.5);	/*背景色。rgba値は左３つが色指定(この場合は白)で最後の小数点が透明度。*/
@@ -130,14 +130,19 @@ header a {
 }
 
 .list {
-	width: 3%;		/*画像の幅*/
+	width: 60px;		/*画像の幅*/
 	margin: 0px 2% 15px;	/*画像の外側に空けるスペース。左から、上(0px)、左右(1%)、下(15px)への設定。*/	
 }
 
-.list figure div figcaption{
-	font-size: 10%px;
+.parentlist figcaption {
+	font-size: 10px;
 	line-height: 1.1;
 	text-align: center;
+	text-decoration: none;
+}
+
+.parentlist a {
+	text-decoration: none;
 }
 
 /*フッター(ページ最下部のcopyrightのパーツ)設定
@@ -236,14 +241,19 @@ footer .pr {
 }
 
 .list {
-	width: 30%;		/*画像の幅*/
-	margin: 0px 1% 30px;	/*画像の外側に空けるスペース。左から、上(0px)、左右(1%)、下(15px)への設定。*/	
+	width: 60px;		/*画像の幅*/
+	margin: 0px 2% 15px;	/*画像の外側に空けるスペース。左から、上(0px)、左右(1%)、下(15px)への設定。*/	
 }
 
-.list figure div figcaption{
-	font-size: 10%;
+.parentlist figcaption {
+	font-size: 10px;
 	line-height: 1.1;
 	text-align: center;
+	text-decoration: none;
+}
+
+.parentlist a {
+	text-decoration: none;
 }
 
 /*トップページ内「更新情報・お知らせ」ブロック
