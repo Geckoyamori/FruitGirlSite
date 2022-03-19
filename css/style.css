@@ -230,8 +230,20 @@ footer .pr {
 /*Galleryページ
 ---------------------------------------------------------------------------*/
 /*画像の設定*/
-.list figure img {
-	width: 48%;		/*画像の幅*/
+.parentlist {
+	display: flex;
+	flex-wrap: wrap;	/*左に回り込みさせる設定*/	
+}
+
+.list {
+	width: 40%;		/*画像の幅*/
+	margin: 0px 2% 15px;	/*画像の外側に空けるスペース。左から、上(0px)、左右(1%)、下(15px)への設定。*/	
+}
+
+.list figure div figcaption{
+	font-size: 0.5px;
+	line-height: 1.1;
+	text-align: center;
 }
 
 /*トップページ内「更新情報・お知らせ」ブロック
