@@ -236,8 +236,8 @@ footer .pr {
 }
 
 .list {
-	width: 40%;		/*画像の幅*/
-	margin: 0px 2% 15px;	/*画像の外側に空けるスペース。左から、上(0px)、左右(1%)、下(15px)への設定。*/	
+	width: 50%;		/*画像の幅*/
+	margin: 0px 2% 100px;	/*画像の外側に空けるスペース。左から、上(0px)、左右(1%)、下(15px)への設定。*/	
 }
 
 .list figure div figcaption{
