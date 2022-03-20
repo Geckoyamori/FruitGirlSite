@@ -213,6 +213,28 @@ footer .pr {
 .pr {font-size: 10px;}
 
 
+/*FruitGirl詳細画面
+---------------------------------------------------------------------------*/
+.detailbox {
+	display: flex;
+}
+
+.detailbox .image {
+	width: 640px; /*画像サイズ指定*/
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	position: relative;
+}
+
+.detailbox .info {
+	margin: 0 0 0 20px;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+}
+
+
 
 /*画面幅600px以下の設定
 ------------------------------------------------------------------------------------------------------------------------------------------------------*/
