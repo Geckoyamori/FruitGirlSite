@@ -220,7 +220,7 @@ footer .pr {
 }
 
 .detailbox .image {
-	width: 640px; /*画像サイズ指定*/
+	width: 50%; /*画像サイズ指定*/
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
@@ -228,6 +228,7 @@ footer .pr {
 }
 
 .detailbox .info {
+	width: 50%; 
 	margin: 0 0 0 20px;
 	padding: 0;
 	display: flex;
