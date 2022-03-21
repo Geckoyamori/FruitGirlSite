@@ -246,15 +246,6 @@ footer .pr {
     position: absolute;
 }
 
-.worldmap-box .distribution img{
-    transition:0.3s;/*元に戻る秒数*/
-}
-.worldmap-box .distribution img:hover{
-    transform: scale(10);/*拡大倍率*/
-    transition:0.3s;/*変化するのにかかる秒数*/
-}
-
-
 
 /*画面幅600px以下の設定
 ------------------------------------------------------------------------------------------------------------------------------------------------------*/
