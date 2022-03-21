@@ -235,6 +235,17 @@ footer .pr {
 	flex-direction: column;
 }
 
+/*FruitGirl分布画面
+---------------------------------------------------------------------------*/
+.worldmap-box {
+    position: relative;
+}
+
+.distribution {
+    cursor: pointer;
+    position: absolute;
+}
+
 
 
 /*画面幅600px以下の設定
