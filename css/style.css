@@ -370,6 +370,5 @@ footer .pr {
   .distribution {
     cursor: pointer;
     position: absolute;
-    pointer-events: none;
   }
 }

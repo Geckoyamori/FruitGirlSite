@@ -127,7 +127,20 @@ function OCwindowWidth()
 }
 
 // 画像をホバーした際に、別の場所に画像を切り替えるメソッド
-function myChgPic(myPicURL, myPicName){
+function myChgPic(detailLink, myPicURL, myPicName){
+    if(navigator.userAgent.match(/(iPhone|iPod|Android.*Mobile)/i)){
+        // スマホ（iPhone・Androidスマホ）の場合の処理を記述
+    }else{
+        // PC・タブレットの場合の処理を記述
+
+        // 地図上のFruit Girl画像クリックでも詳細画面に遷移させる処理
+        let elements = document.getElementsByClassName('eachDetailLink');
+        for (let i = 0; i < elements.length; i++){
+            elements.item(i).setAttribute('href', detailLink);
+            console.log(elements.item(i));
+        }
+    }
+    document.getElementById('detailLink').setAttribute('href', detailLink);
     document.images["myBigImage"].src = myPicURL;
     document.getElementById('fruitName').innerText = myPicName;
 }
