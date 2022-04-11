@@ -172,19 +172,19 @@ header a {
 
 /*画像配置の設定*/
 .list {
-  width: 100px; /*画像の幅*/
+  width: 200px; /*画像の幅*/
   margin: 0px 0% 5px; /*画像の外側に空けるスペース。左から、上(0px)、左右(1%)、下(15px)への設定。*/
 }
 
 /*お迎えされた画像配置の設定*/
 .pickuplist {
-  width: 100px; /*画像の幅*/
+  width: 200px; /*画像の幅*/
   margin: 0px 0% 5px; /*画像の外側に空けるスペース。左から、上(0px)、左右(1%)、下(15px)への設定。*/
 }
 
 /*お迎えされた各種画像の設定*/
 .pickuplist img {
-  filter: brightness(50%);
+  filter: brightness(40%);
 }
 
 .parentlist figcaption {

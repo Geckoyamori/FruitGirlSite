@@ -184,7 +184,7 @@ header a {
 
 /*お迎えされた各種画像の設定*/
 .pickuplist img {
-  filter: brightness(50%);
+  filter: brightness(40%);
 }
 
 .parentlist figcaption {
