@@ -170,21 +170,33 @@ header a {
   flex-wrap: wrap; /*左に回り込みさせる設定*/
 }
 
-/*画像配置の設定*/
+/*お迎えされていない画像配置の設定*/
 .list {
-  width: 200px; /*画像の幅*/
+  width: 200px; /*画像の幅*/ /*レイアウトを変更したい場合は、ここの幅を調整する*/
   margin: 0px 0% 5px; /*画像の外側に空けるスペース。左から、上(0px)、左右(1%)、下(15px)への設定。*/
+}
+
+.list .thankyou {
+  display: none;
 }
 
 /*お迎えされた画像配置の設定*/
 .pickuplist {
-  width: 200px; /*画像の幅*/
+  width: 200px; /*画像の幅*/ /*レイアウトを変更したい場合は、ここの幅を調整する*/
   margin: 0px 0% 5px; /*画像の外側に空けるスペース。左から、上(0px)、左右(1%)、下(15px)への設定。*/
+  position: relative;
 }
 
 /*お迎えされた各種画像の設定*/
-.pickuplist img {
+.pickuplist .main {
   filter: brightness(40%);
+}
+
+.pickuplist .thankyou {
+  width: 70%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0%);
 }
 
 .parentlist figcaption {
