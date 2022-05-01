@@ -189,7 +189,7 @@ header a {
 
 /*お迎えされた各種画像の設定*/
 .pickuplist .main {
-  filter: brightness(40%);
+  /* filter: brightness(40%); */
 }
 
 .pickuplist .thankyou {
